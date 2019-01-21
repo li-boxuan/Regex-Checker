@@ -1,4 +1,6 @@
-module.exports = app => {
+const getConfig = require('./lib/get_config');
+
+export default app => {
   app.on([
     'pull_request.opened',
     'pull_request.edited',
