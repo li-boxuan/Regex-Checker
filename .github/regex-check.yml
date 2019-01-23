@@ -1,0 +1,6 @@
+mustMatch: "^([^:]*|[^:]+[^ ]: [A-Z0-9*].*)$"
+mustNotMatch:
+  - WIP
+  - DNM
+caseSensitive: true
+failureStatus: in_progress
