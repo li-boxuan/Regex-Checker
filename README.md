@@ -1,6 +1,15 @@
-# regex-checker
+# Regex Checker
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that A PR regex checker GitHub App
+> A GitHub App that checks Pull Request titles using user-defined regular
+expression
+
+<a href="https://stats.uptimerobot.com/xlkjDf0QE" rel="nofollow"><img src="https://img.shields.io/uptimerobot/status/m781823823-ab164d98e412f4ec1e31c4c3.svg" alt="Uptime Robot status"></a>
+
+Prevent certain pattern (regular expression)
+![DNM demo](static/DNM_demo.gif)
+
+Require certain pattern (regular expression)
+![Regex demo](static/regex-demo.gif)
 
 ## Setup
 
