@@ -7,11 +7,11 @@ user-defined regular expression. It is completely free.
 <a href="https://travis-ci.org/li-boxuan/Regex-Checker" rel="nofollow"><img alt="Build Status" src="https://travis-ci.org/li-boxuan/Regex-Checker.svg?branch=master"></a>
 <a href="https://coveralls.io/github/li-boxuan/Regex-Checker?branch=master" rel="nofollow"><img alt="Branch Coverage" src="https://img.shields.io/codecov/c/github/li-boxuan/Regex-Checker/master.svg?label=branch%20coverage"></a>
 
-Prevent certain pattern (regular expression)
+Usage demo 1: Prevent certain pattern (regular expression)
 
 ![DNM demo](static/DNM_demo.gif)
 
-Require certain pattern (regular expression)
+Usage demo 2: Require certain pattern (regular expression)
 
 ![Regex demo](static/regex-demo.gif)
 
