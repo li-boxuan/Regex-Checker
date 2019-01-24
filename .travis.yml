@@ -1,0 +1,14 @@
+# `sudo:false` for faster builds.
+sudo: false
+language: node_js
+cache:
+  directories:
+    - "node_modules"
+
+stages:
+  - test
+
+jobs:
+  include:
+    - stage: test
+      script: npm run test
