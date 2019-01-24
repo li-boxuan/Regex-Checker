@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+  },
+  "rules": {
+    "comma-dangle": [1, "always-multiline"],
+    "no-unused-vars": 1,
+    "no-var": 2,
+    "new-cap": 0,
+    "quotes": [1, "single", "avoid-escape"],
+    "semi": 1,
+    "indent": [2, 2],
+  },
+  "parserOptions": {
+    "sourceType": "module",
+  },
+}
