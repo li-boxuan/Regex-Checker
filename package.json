@@ -17,7 +17,7 @@
     "build": "babel lib/ -d dist/",
     "start": "npm run build && probot run ./dist/index.js",
     "lint": "eslint lib test",
-    "test": "jest && standard",
+    "test": "jest && npm run lint",
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
