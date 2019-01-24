@@ -4,6 +4,8 @@
 user-defined regular expression. It is completely free.
 
 <a href="https://stats.uptimerobot.com/xlkjDf0QE" rel="nofollow"><img src="https://img.shields.io/uptimerobot/status/m781823823-ab164d98e412f4ec1e31c4c3.svg" alt="Uptime Robot status"></a>
+<a href="https://travis-ci.org/li-boxuan/Regex-Checker" rel="nofollow"><img alt="Build Status" src="https://travis-ci.org/li-boxuan/Regex-Checker.svg?branch=master"></a>
+<a href="https://coveralls.io/github/li-boxuan/Regex-Checker?branch=master" rel="nofollow"><img alt="Branch Coverage" src="https://img.shields.io/codecov/c/github/li-boxuan/Regex-Checker/master.svg?label=branch%20coverage"></a>
 
 Prevent certain pattern (regular expression)
 
