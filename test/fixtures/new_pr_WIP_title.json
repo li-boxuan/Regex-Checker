@@ -1,0 +1,13 @@
+{
+  "name": "pull_request",
+  "payload": {
+    "action": "opened",
+    "pull_request": {
+      "title": "[WIP] A test pull request",
+      "number": 1,
+      "head": {
+        "sha": "sha123"
+      }
+    }
+  }
+}

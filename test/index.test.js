@@ -1,9 +1,10 @@
 const nock = require('nock');
 // Requiring our app implementation
-const myProbotApp = require('../lib');
+const regex_checker = require('../lib');
 const { Probot } = require('probot');
 // Requiring our fixtures
 const checkSuitePayload = require('./fixtures/check_suite.requested');
+const checkRunSuccess = require('./fixtures/check_run.created');
 const checkRunSuccess = require('./fixtures/check_run.created');
 
 nock.disableNetConnect();
@@ -14,7 +15,7 @@ describe('My Probot app', () => {
   beforeEach(() => {
     probot = new Probot({});
     // Load our app into probot
-    const app = probot.load(myProbotApp);
+    const app = probot.load(regex_checker);
 
     // just return a test token
     app.app = () => 'test';
@@ -37,9 +38,3 @@ describe('My Probot app', () => {
     await probot.receive({ name: 'check_suite', payload: checkSuitePayload });
   });
 });
-
-// For more information about testing with Jest see:
-// https://facebook.github.io/jest/
-
-// For more information about testing with Nock see:
-// https://github.com/nock/nock
